@@ -1,0 +1,125 @@
+*
+{
+    padding: 0px;
+    margin: 0;
+}
+#sale-image
+{
+    height: 600px;
+    width: 700px;
+}
+.heading
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: lemonchiffon;
+    color: darkblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.table
+{
+    background-color: lightcyan;
+}
+.grid
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+#sale-image
+{
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 90%;
+    height: 80vh;
+    justify-content: center;
+    padding-bottom: 20px;
+    border: 5px solid black;
+
+}
+.discount-table
+{
+    padding-top: 5px;
+    width: 100%;
+    text-align: center;
+    background-color: lemonchiffon;
+    padding-bottom: 10px;
+    border: 1px solid grey;
+}
+#upcoming
+{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: lemonchiffon;
+}
+.discount-table td, .discount-table tr
+{
+    padding: 2px;
+    border: 1px solid grey;
+}
+.Shop-description
+{
+    background-color: lightcyan;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#tagline
+{
+    text-align: center;
+    color:darkslategrey;
+}
+.Payment-Option
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lemonchiffon;
+    padding-left: 10px;
+}
+#pay-op
+{
+    text-align: center;
+    color: darkslategray;
+}
+.address
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    background-color: lightcyan;
+}
+#ad
+{
+    text-align: center;
+    color: darkslategray;
+}
+.footer
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: whitesmoke;
+    background-color: gray;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 1.5rem; 
+    }
+    .heading {
+        font-size: 2rem; 
+    }
+}
+@media (min-width: 768px) {
+    body {
+        font-size: 2rem; 
+    }
+    .heading {
+        font-size: 3rem; 
+    }
+}
+
